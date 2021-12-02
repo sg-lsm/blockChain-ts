@@ -1,0 +1,24 @@
+{
+  "name": "mini-blockchain-ts",
+  "version": "1.0.0",
+  "description": "built blockChain using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sg-lsm/blockChain-ts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sg-lsm/blockChain-ts/issues"
+  },
+  "homepage": "https://github.com/sg-lsm/blockChain-ts#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "tsc-watch": "^4.5.0"
+  }
+}
